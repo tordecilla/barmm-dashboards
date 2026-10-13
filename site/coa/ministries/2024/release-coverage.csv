@@ -1,0 +1,29 @@
+﻿entity_id,name,entity_type,entity_class,report_year,identity_status,current_independent_reviews,verified_records,review_status,verified_financials,verified_opinions,verified_recommendation_status,verified_findings,verified_recommendation_followups,verified_notices,verified_financial_note_disclosures,verified_source_document_context
+bangsamoro-attorney-general-s-office,Bangsamoro Attorney-General's Office,Office,ministry_or_office,2024,pending_original_source,1,344,partially_verified,320,1,1,7,12,3,0,0
+bangsamoro-commission-for-the-preservation-of-cultural-heritage,Bangsamoro Commission for the Preservation of Cultural Heritage,Office,ministry_or_office,2024,pending_original_source,1,184,partially_verified,154,1,1,5,18,3,0,2
+bangsamoro-human-rights-commission,Bangsamoro Human Rights Commission,Office,ministry_or_office,2024,pending_original_source,1,210,partially_verified,178,1,1,8,14,3,3,2
+bangsamoro-pilgrimage-authority,Bangsamoro Pilgrimage Authority,Office,ministry_or_office,2024,pending_original_source,1,63,partially_verified,27,1,1,6,18,3,0,7
+bangsamoro-planning-and-development-authority,Bangsamoro Planning and Development Authority,Office,ministry_or_office,2024,pending_original_source,1,64,partially_verified,22,1,1,6,10,3,0,21
+bangsamoro-sports-commission,Bangsamoro Sports Commission,Office,ministry_or_office,2024,pending_original_source,1,68,partially_verified,21,1,1,6,28,3,0,8
+bangsamoro-transition-authority,Bangsamoro Transition Authority,Office,ministry_or_office,2024,pending_original_source,1,778,partially_verified,662,1,1,8,93,0,9,4
+bangsamoro-women-commission,Bangsamoro Women Commission,Office,ministry_or_office,2024,pending_original_source,1,413,partially_verified,370,1,1,8,18,3,6,6
+bangsamoro-youth-commission,Bangsamoro Youth Commission,Office,ministry_or_office,2024,pending_original_source,1,204,partially_verified,160,1,1,8,18,3,7,6
+cooperative-and-social-enterprise-authority,Cooperative and Social Enterprise Authority,Office,ministry_or_office,2024,pending_original_source,1,193,partially_verified,148,1,1,6,27,3,3,4
+development-academy-of-the-bangsamoro,Development Academy of the Bangsamoro,Office,ministry_or_office,2024,pending_original_source,1,152,partially_verified,106,1,1,10,25,3,2,4
+marawi-compensation-board,Marawi Compensation Board,Office,ministry_or_office,2024,pending_original_source,1,552,partially_verified,500,1,1,9,32,3,2,4
+ministry-of-agriculture-fisheries-and-agrarian-reform,"Ministry of Agriculture, Fisheries and Agrarian Reform",Ministry,ministry_or_office,2024,pending_original_source,1,816,partially_verified,600,1,1,18,136,11,13,36
+ministry-of-basic-higher-and-technical-education,Ministry of Basic Higher and Technical Education,Ministry,ministry_or_office,2024,pending_original_source,1,909,partially_verified,740,1,1,22,83,14,11,37
+ministry-of-environment-natural-resources-and-energy,"Ministry of Environment, Natural Resources and Energy",Ministry,ministry_or_office,2024,pending_original_source,1,630,partially_verified,537,1,1,15,34,9,13,20
+ministry-of-finance-and-budget-and-management,"Ministry of Finance, and Budget and Management",Ministry,ministry_or_office,2024,pending_original_source,1,447,partially_verified,364,1,1,17,50,6,4,4
+ministry-of-health,Ministry of Health,Ministry,ministry_or_office,2024,pending_original_source,1,628,partially_verified,438,1,1,23,157,3,2,3
+ministry-of-human-settlements-and-development,Ministry of Human Settlements and Development,Ministry,ministry_or_office,2024,pending_original_source,1,563,partially_verified,500,1,1,12,40,3,2,4
+ministry-of-indigenous-peoples-affairs,Ministry of Indigenous Peoples’ Affairs,Ministry,ministry_or_office,2024,pending_original_source,1,536,partially_verified,440,1,1,9,29,4,18,34
+ministry-of-interior-and-local-government,Ministry of Interior and Local Government,Ministry,ministry_or_office,2024,pending_original_source,1,550,partially_verified,468,1,1,10,15,4,30,21
+ministry-of-labor-and-employment,Ministry of Labor and Employment,Ministry,ministry_or_office,2024,pending_original_source,1,469,partially_verified,416,1,1,6,10,4,10,21
+ministry-of-public-order-and-safety,Ministry of Public Order and Safety,Ministry,ministry_or_office,2024,pending_original_source,1,566,partially_verified,532,1,1,11,12,3,2,4
+ministry-of-public-works,Ministry of Public Works,Ministry,ministry_or_office,2024,pending_original_source,1,194,partially_verified,126,1,1,15,18,4,14,15
+ministry-of-science-and-technology,Ministry of Science and Technology,Ministry,ministry_or_office,2024,pending_original_source,1,762,partially_verified,722,1,1,11,17,3,2,5
+ministry-of-social-services-and-development,Ministry of Social Services and Development,Ministry,ministry_or_office,2024,pending_original_source,1,466,partially_verified,254,1,1,16,31,14,27,122
+ministry-of-trade-investments-and-tourism,"Ministry of Trade, Investments and Tourism",Ministry,ministry_or_office,2024,pending_original_source,1,1570,partially_verified,1540,1,1,9,8,3,4,4
+ministry-of-transportation-and-communications,Ministry of Transportation and Communications,Ministry,ministry_or_office,2024,pending_original_source,1,1007,partially_verified,965,1,1,13,19,3,1,4
+office-of-the-chief-minister,Office of the Chief Minister,Office,ministry_or_office,2024,pending_original_source,1,1291,partially_verified,1156,1,1,10,11,1,17,94

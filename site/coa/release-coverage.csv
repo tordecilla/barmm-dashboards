@@ -1,0 +1,114 @@
+﻿entity_id,name,province,entity_type,source_report_year,release_coverage,annual_report_located,published_records,core_2024_outcomes,missing_core_2024_outcomes,core_2024_numeric_metrics,qualified_financial_outcomes,published_findings_scope,full_part_ii_declared,full_part_iii_declared,financials,opinions,recommendation_status,findings,recommendation_followups,notices,financial_note_disclosures,source_document_context
+akbar,Akbar,Basilan,Municipality,2024,partially_reviewed,True,3576,6,,6,1565,published subset; whole-report completeness not certified,complete,complete,3286,1,1,19,48,3,139,79
+al-barka,Al-Barka,Basilan,Municipality,2024,partially_reviewed,True,1285,6,,6,476,published subset; whole-report completeness not certified,complete,complete,1220,1,1,15,45,3,0,0
+basilan,Basilan,Basilan,Province,2024,partially_reviewed,True,2147,6,,6,242,published subset; whole-report completeness not certified,partial,partial,2037,1,1,11,60,3,34,0
+hadji-mohammad-ajul,Hadji Mohammad Ajul,Basilan,Municipality,2024,partially_reviewed,True,2809,6,,6,915,published subset; whole-report completeness not certified,complete,complete,2651,1,1,22,86,3,20,25
+hadji-muhtamad,Hadji Muhtamad,Basilan,Municipality,2024,partially_reviewed,True,1639,6,,6,619,published subset; whole-report completeness not certified,complete,complete,1517,1,1,22,65,3,30,0
+lamitan-city,Lamitan City,Basilan,City,2024,partially_reviewed,True,4568,6,,6,1731,published subset; whole-report completeness not certified,complete,complete,4377,1,1,19,38,3,29,100
+lantawan,Lantawan,Basilan,Municipality,2024,partially_reviewed,True,1676,6,,6,793,published subset; whole-report completeness not certified,complete,complete,1563,1,1,12,57,3,39,0
+maluso,Maluso,Basilan,Municipality,2024,partially_reviewed,True,3126,6,,6,1158,published subset; whole-report completeness not certified,complete,complete,2947,1,1,20,90,3,18,46
+sumisip,Sumisip,Basilan,Municipality,2024,partially_reviewed,True,85,6,,6,0,published subset; whole-report completeness not certified,complete,complete,12,0,1,12,57,3,0,0
+tabuan-lasa,Tabuan Lasa,Basilan,Municipality,2024,partially_reviewed,True,1555,6,,6,556,published subset; whole-report completeness not certified,complete,complete,1441,1,1,15,50,3,44,0
+tipo-tipo,Tipo-Tipo,Basilan,Municipality,2024,partially_reviewed,True,71,6,,6,0,published subset; whole-report completeness not certified,complete,complete,12,1,1,10,44,3,0,0
+tuburan,Tuburan,Basilan,Municipality,2024,partially_reviewed,True,49,6,,6,0,published subset; whole-report completeness not certified,complete,complete,12,1,1,11,21,3,0,0
+ungkaya-pukan,Ungkaya Pukan,Basilan,Municipality,2024,partially_reviewed,True,133,6,,6,9,published subset; whole-report completeness not certified,complete,complete,32,1,1,19,77,3,0,0
+amai-manabilang,Amai Manabilang,Lanao del Sur,Municipality,2024,partially_reviewed,True,127,6,,6,2,published subset; whole-report completeness not certified,complete,complete,22,1,1,4,96,3,0,0
+bacolod-kalawi,Bacolod-Kalawi,Lanao del Sur,Municipality,2024,partially_reviewed,True,166,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,6,134,0,0,6
+balabagan,Balabagan,Lanao del Sur,Municipality,2024,partially_reviewed,True,81,6,,6,0,published subset; whole-report completeness not certified,complete,complete,15,1,1,8,52,3,0,1
+balindong,Balindong,Lanao del Sur,Municipality,2024,partially_reviewed,True,105,6,,6,4,published subset; whole-report completeness not certified,complete,partial,28,1,1,9,63,3,0,0
+bayang,Bayang,Lanao del Sur,Municipality,2024,partially_reviewed,True,83,5,liabilities,5,0,published subset; whole-report completeness not certified,complete,partial,7,1,1,11,60,3,0,0
+binidayan,Binidayan,Lanao del Sur,Municipality,2024,partially_reviewed,True,85,6,,6,2,published subset; whole-report completeness not certified,complete,complete,28,1,1,7,45,3,0,0
+buadiposo-buntong,Buadiposo Buntong,Lanao del Sur,Municipality,2024,partially_reviewed,True,52,6,,6,0,published subset; whole-report completeness not certified,complete,complete,13,1,1,6,26,4,0,1
+bubong,Bubong,Lanao del Sur,Municipality,2024,partially_reviewed,True,131,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,9,99,3,0,0
+butig,Butig,Lanao del Sur,Municipality,2024,partially_reviewed,True,826,6,,6,264,published subset; whole-report completeness not certified,complete,complete,784,1,1,8,29,3,0,0
+calanogas,Calanogas,Lanao del Sur,Municipality,2024,partially_reviewed,True,64,6,,6,0,published subset; whole-report completeness not certified,complete,complete,16,1,1,13,30,3,0,0
+ditsaan-ramain,Ditsaan Ramain,Lanao del Sur,Municipality,2024,partially_reviewed,True,1154,6,,6,493,published subset; whole-report completeness not certified,complete,complete,1070,1,1,11,68,3,0,0
+ganassi,Ganassi,Lanao del Sur,Municipality,2024,partially_reviewed,True,1144,6,,6,373,published subset; whole-report completeness not certified,complete,partial,1053,1,1,3,7,3,11,65
+islamic-city-of-marawi,Islamic City of Marawi,Lanao del Sur,City,2024,partially_reviewed,True,75,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,8,44,3,0,0
+kapai,Kapai,Lanao del Sur,Municipality,2024,partially_reviewed,True,95,6,,6,0,published subset; whole-report completeness not certified,complete,partial,20,1,1,9,61,3,0,0
+kapatagan,Kapatagan,Lanao del Sur,Municipality,2024,partially_reviewed,True,87,6,,6,2,published subset; whole-report completeness not certified,complete,partial,21,1,1,8,53,3,0,0
+lanao-del-sur,Lanao del Sur,Lanao del Sur,Province,2024,partially_reviewed,True,43,6,,6,0,published subset; whole-report completeness not certified,complete,partial,15,1,1,10,13,3,0,0
+lumba-bayabao,Lumba-Bayabao,Lanao del Sur,Municipality,2024,partially_reviewed,True,36,6,,6,0,published subset; whole-report completeness not certified,complete,partial,15,1,1,7,9,3,0,0
+lumbaca-unayan,Lumbaca Unayan,Lanao del Sur,Municipality,2024,partially_reviewed,True,86,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,10,53,3,0,0
+lumbatan,Lumbatan,Lanao del Sur,Municipality,2024,partially_reviewed,True,82,6,,6,0,published subset; whole-report completeness not certified,complete,partial,22,1,1,6,49,3,0,0
+lumbayanague,Lumbayanague,Lanao del Sur,Municipality,2024,partially_reviewed,True,78,6,,6,0,published subset; whole-report completeness not certified,complete,partial,10,1,1,10,53,3,0,0
+madalum,Madalum,Lanao del Sur,Municipality,2024,partially_reviewed,True,171,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,6,142,3,0,0
+madamba,Madamba,Lanao del Sur,Municipality,2024,partially_reviewed,True,84,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,4,59,0,0,1
+maguing,Maguing,Lanao del Sur,Municipality,2024,partially_reviewed,True,33,6,,6,0,published subset; whole-report completeness not certified,complete,partial,16,1,1,4,8,3,0,0
+malabang,Malabang,Lanao del Sur,Municipality,2024,partially_reviewed,True,96,6,,6,4,published subset; whole-report completeness not certified,complete,partial,16,1,1,10,65,3,0,0
+marantao,Marantao,Lanao del Sur,Municipality,2024,partially_reviewed,True,75,5,equity,5,0,published subset; whole-report completeness not certified,complete,complete,12,1,1,11,46,3,0,1
+marogong,Marogong,Lanao del Sur,Municipality,2024,partially_reviewed,True,65,6,,4,3,published subset; whole-report completeness not certified,complete,partial,17,1,1,8,34,3,0,1
+masiu,Masiu,Lanao del Sur,Municipality,2024,partially_reviewed,True,66,6,,6,0,published subset; whole-report completeness not certified,complete,partial,17,1,1,9,37,0,0,1
+mulondo,Mulondo,Lanao del Sur,Municipality,2024,partially_reviewed,True,67,6,,6,0,published subset; whole-report completeness not certified,complete,partial,12,1,1,12,37,3,0,1
+pagayawan,Pagayawan,Lanao del Sur,Municipality,2024,partially_reviewed,True,110,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,14,72,3,0,1
+piagapo,Piagapo,Lanao del Sur,Municipality,2024,partially_reviewed,True,59,6,,6,3,published subset; whole-report completeness not certified,complete,partial,19,1,1,9,26,3,0,0
+picong,Picong,Lanao del Sur,Municipality,2024,partially_reviewed,True,87,6,,6,0,published subset; whole-report completeness not certified,complete,partial,13,1,1,12,57,3,0,0
+poona-bayabao,Poona Bayabao,Lanao del Sur,Municipality,2024,partially_reviewed,True,63,6,,6,0,published subset; whole-report completeness not certified,complete,partial,17,1,1,9,32,3,0,0
+pualas,Pualas,Lanao del Sur,Municipality,2024,partially_reviewed,True,108,6,,6,0,published subset; whole-report completeness not certified,complete,partial,16,1,1,14,73,3,0,0
+saguiaran,Saguiaran,Lanao del Sur,Municipality,2024,partially_reviewed,True,63,5,revenue,5,0,published subset; whole-report completeness not certified,complete,complete,11,1,1,10,37,3,0,0
+sultan-dumalondong,Sultan Dumalondong,Lanao del Sur,Municipality,2024,partially_reviewed,True,83,6,,6,0,published subset; whole-report completeness not certified,complete,partial,8,1,1,13,57,3,0,0
+tagoloan,Tagoloan,Lanao del Sur,Municipality,2024,partially_reviewed,True,116,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,12,81,3,0,0
+tamparan,Tamparan,Lanao del Sur,Municipality,2024,partially_reviewed,True,55,6,,6,0,published subset; whole-report completeness not certified,complete,partial,16,1,1,9,25,3,0,0
+taraka,Taraka,Lanao del Sur,Municipality,2024,partially_reviewed,True,34,6,,6,0,published subset; whole-report completeness not certified,complete,partial,16,1,1,5,8,3,0,0
+tubaran,Tubaran,Lanao del Sur,Municipality,2024,partially_reviewed,True,67,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,9,35,3,0,0
+tugaya,Tugaya,Lanao del Sur,Municipality,2024,partially_reviewed,True,61,6,,6,0,published subset; whole-report completeness not certified,complete,partial,13,1,1,12,31,3,0,0
+wao,Wao,Lanao del Sur,Municipality,2024,partially_reviewed,True,123,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,10,90,3,0,0
+barira,Barira,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,76,6,,6,0,published subset; whole-report completeness not certified,complete,complete,14,1,1,8,49,3,0,0
+buldon,Buldon,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,90,6,,6,0,published subset; whole-report completeness not certified,complete,complete,17,1,1,8,60,3,0,0
+cotabato-city,Cotabato City,Maguindanao del Norte,City,2024,partially_reviewed,True,159,6,,6,0,published subset; whole-report completeness not certified,complete,partial,20,1,1,10,124,3,0,0
+datu-blah-sinsuat,Datu Blah Sinsuat,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,82,6,,6,0,published subset; whole-report completeness not certified,complete,complete,35,0,1,9,34,3,0,0
+datu-odin-sinsuat,Datu Odin Sinsuat,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,50,5,assets,5,0,published subset; whole-report completeness not certified,complete,complete,19,1,0,10,17,3,0,0
+kabuntalan,Kabuntalan,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,69,6,,6,0,published subset; whole-report completeness not certified,complete,complete,18,1,1,11,35,3,0,0
+maguindanao-del-norte,Maguindanao del Norte,Maguindanao del Norte,Province,2024,partially_reviewed,True,55,6,,6,0,published subset; whole-report completeness not certified,complete,partial,10,1,1,11,29,3,0,0
+matanog,Matanog,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,62,5,surplus_deficit,5,0,published subset; whole-report completeness not certified,complete,partial,16,1,0,6,39,0,0,0
+northern-kabuntalan,Northern Kabuntalan,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,213,6,,6,13,published subset; whole-report completeness not certified,complete,complete,151,1,1,7,50,3,0,0
+parang,Parang,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,50,5,equity,5,0,published subset; whole-report completeness not certified,complete,partial,20,1,0,7,21,1,0,0
+sultan-kudarat,Sultan Kudarat,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,77,6,,6,0,published subset; whole-report completeness not certified,complete,partial,18,1,1,17,37,3,0,0
+sultan-mastura,Sultan Mastura,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,61,6,,6,0,published subset; whole-report completeness not certified,complete,partial,20,1,1,14,22,3,0,0
+talitay,Talitay,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,64,6,,6,0,published subset; whole-report completeness not certified,complete,partial,20,1,1,8,34,0,0,0
+upi,Upi,Maguindanao del Norte,Municipality,2024,partially_reviewed,True,51,6,,6,0,published subset; whole-report completeness not certified,complete,partial,22,1,0,10,15,3,0,0
+ampatuan,Ampatuan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,67,6,,6,4,published subset; whole-report completeness not certified,complete,complete,22,1,1,12,28,3,0,0
+buluan,Buluan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,128,6,,6,13,published subset; whole-report completeness not certified,complete,complete,45,1,1,3,75,3,0,0
+datu-abdullah-sangki,Datu Abdullah Sangki,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,89,6,,6,0,published subset; whole-report completeness not certified,complete,complete,19,1,1,14,51,3,0,0
+datu-anggal-midtimbang,Datu Anggal Midtimbang,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,98,6,,6,0,published subset; whole-report completeness not certified,complete,complete,20,1,1,10,63,3,0,0
+datu-hoffer-ampatuan,Datu Hoffer Ampatuan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,70,6,,6,0,published subset; whole-report completeness not certified,complete,complete,15,1,1,14,36,3,0,0
+datu-montawal,Datu Montawal,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,72,5,surplus_deficit,5,1,published subset; whole-report completeness not certified,complete,partial,15,1,1,13,39,3,0,0
+datu-paglas,Datu Paglas,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,86,6,,6,0,published subset; whole-report completeness not certified,complete,complete,17,1,1,14,50,3,0,0
+datu-piang,Datu Piang,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,85,6,,6,1,published subset; whole-report completeness not certified,complete,complete,23,1,1,11,46,3,0,0
+datu-salibo,Datu Salibo,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,68,6,,6,3,published subset; whole-report completeness not certified,complete,complete,21,1,1,9,33,3,0,0
+datu-saudi-ampatuan,Datu Saudi Ampatuan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,83,6,,6,2,published subset; whole-report completeness not certified,complete,complete,24,1,1,13,41,3,0,0
+datu-unsay,Datu Unsay,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,72,6,,6,4,published subset; whole-report completeness not certified,complete,complete,22,1,1,17,28,3,0,0
+general-salipada-k-pendatun,General Salipada K. Pendatun,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,90,6,,6,2,published subset; whole-report completeness not certified,complete,complete,28,1,1,12,45,3,0,0
+guindulungan,Guindulungan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,76,6,,6,2,published subset; whole-report completeness not certified,complete,complete,25,1,1,9,37,3,0,0
+maguindanao-del-sur,Maguindanao del Sur,Maguindanao del Sur,Province,2024,partially_reviewed,True,65,6,,6,0,published subset; whole-report completeness not certified,complete,complete,22,1,0,15,24,3,0,0
+mamasapano,Mamasapano,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,1672,6,,6,818,published subset; whole-report completeness not certified,complete,complete,1535,1,0,13,105,3,15,0
+mangudadatu,Mangudadatu,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,140,6,,6,12,published subset; whole-report completeness not certified,complete,complete,57,1,1,11,67,3,0,0
+pagalungan,Pagalungan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,74,6,,6,0,published subset; whole-report completeness not certified,complete,partial,14,1,1,14,41,3,0,0
+paglat,Paglat,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,75,6,,6,1,published subset; whole-report completeness not certified,complete,complete,16,1,1,11,43,3,0,0
+pandag,Pandag,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,88,6,,6,0,published subset; whole-report completeness not certified,complete,partial,12,1,1,8,63,3,0,0
+rajah-buayan,Rajah Buayan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,106,5,surplus_deficit,5,0,published subset; whole-report completeness not certified,complete,partial,11,1,0,11,81,0,0,2
+shariff-aguak,Shariff Aguak,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,50,5,surplus_deficit,5,0,published subset; whole-report completeness not certified,complete,complete,12,0,1,13,21,3,0,0
+shariff-saydona-mustapha,Shariff Saydona Mustapha,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,92,6,,6,0,published subset; whole-report completeness not certified,complete,complete,12,1,1,9,66,3,0,0
+south-upi,South Upi,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,73,6,,6,0,published subset; whole-report completeness not certified,complete,complete,21,1,1,17,30,3,0,0
+sultan-sa-barongis,Sultan sa Barongis,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,107,6,,6,0,published subset; whole-report completeness not certified,complete,complete,13,1,1,9,80,3,0,0
+talayan,Talayan,Maguindanao del Sur,Municipality,2024,partially_reviewed,True,75,6,,6,0,published subset; whole-report completeness not certified,complete,complete,17,1,1,8,45,3,0,0
+kadayangan,Kadayangan,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+kapalawan,Kapalawan,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+ligawasan,Ligawasan,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+malidegao,Malidegao,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+nabalawag,Nabalawag,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+old-kaabakan,Old Kaabakan,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+pahamuddin,Pahamuddin,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+tugunan,Tugunan,Special Geographic Area,Municipality,2024,report_not_located,False,0,0,assets; liabilities; equity; revenue; expenses; surplus_deficit,0,0,published subset; whole-report completeness not certified,unavailable,unavailable,0,0,0,0,0,0,0,0
+bongao,Bongao,Tawi-Tawi,Municipality,2024,partially_reviewed,True,122,6,,6,0,published subset; whole-report completeness not certified,partial,partial,14,1,1,18,85,3,0,0
+languyan,Languyan,Tawi-Tawi,Municipality,2024,partially_reviewed,True,60,5,equity,5,0,published subset; whole-report completeness not certified,complete,partial,9,1,1,14,32,3,0,0
+mapun,Mapun,Tawi-Tawi,Municipality,2024,partially_reviewed,True,124,6,,6,0,published subset; whole-report completeness not certified,partial,partial,14,1,1,16,89,3,0,0
+panglima-sugala,Panglima Sugala,Tawi-Tawi,Municipality,2024,partially_reviewed,True,82,6,,6,0,published subset; whole-report completeness not certified,partial,partial,22,1,1,8,47,3,0,0
+sapa-sapa,Sapa-Sapa,Tawi-Tawi,Municipality,2024,partially_reviewed,True,61,6,,6,0,published subset; whole-report completeness not certified,complete,partial,11,1,1,10,35,3,0,0
+sibutu,Sibutu,Tawi-Tawi,Municipality,2024,partially_reviewed,True,69,6,,6,0,published subset; whole-report completeness not certified,partial,partial,22,1,1,8,34,3,0,0
+simunul,Simunul,Tawi-Tawi,Municipality,2024,partially_reviewed,True,99,6,,6,7,published subset; whole-report completeness not certified,complete,complete,24,1,1,19,51,3,0,0
+sitangkai,Sitangkai,Tawi-Tawi,Municipality,2024,partially_reviewed,True,137,6,,6,10,published subset; whole-report completeness not certified,complete,complete,91,1,1,13,28,3,0,0
+south-ubian,South Ubian,Tawi-Tawi,Municipality,2024,partially_reviewed,True,108,6,,6,0,published subset; whole-report completeness not certified,partial,partial,12,1,1,14,77,3,0,0
+tandubas,Tandubas,Tawi-Tawi,Municipality,2024,partially_reviewed,True,61,6,,6,0,published subset; whole-report completeness not certified,complete,partial,11,1,1,14,31,3,0,0
+tawi-tawi,Tawi-Tawi,Tawi-Tawi,Province,2024,partially_reviewed,True,74,6,,6,0,published subset; whole-report completeness not certified,partial,partial,22,1,1,11,36,3,0,0
+turtle-islands,Turtle Islands,Tawi-Tawi,Municipality,2024,partially_reviewed,True,103,6,,6,0,published subset; whole-report completeness not certified,partial,partial,12,1,1,17,69,3,0,0

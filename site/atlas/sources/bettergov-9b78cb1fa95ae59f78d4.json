@@ -1,0 +1,2615 @@
+{
+  "metadata": {
+    "id": "9b78cb1fa95ae59f78d4",
+    "path": "2E/CS/0012E4EVCP0.px",
+    "title": "Palay and Corn: Volume of Production in Metric Tons by Ecosystem/Croptype, Quarter, Semester, Region and Province, 1987-2026",
+    "domain": "Agriculture, Forestry, Fisheries",
+    "topics": [
+      "Agriculture, Forestry, Fisheries",
+      "Crops"
+    ],
+    "source": "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2E__CS/0012E4EVCP0.px",
+    "sourceUpdated": "2026-07-29T10:20:54",
+    "sourceListed": null,
+    "sourceChecked": null,
+    "pendingSourceUpdated": null,
+    "updateIssue": null,
+    "retrieved": "2026-09-08T19:26:48.167Z",
+    "release": "2026-07-29T10-20-54-739dfdd5ea11",
+    "ready": true,
+    "availability": "Full snapshot mirrored",
+    "schema": "complete",
+    "cells": "183120",
+    "latestYear": 2026,
+    "unit": "Metric tons",
+    "dimensions": [
+      {
+        "code": "Ecosystem/Croptype",
+        "label": "Ecosystem/Croptype",
+        "count": 6
+      },
+      {
+        "code": "Geolocation",
+        "label": "Geolocation",
+        "count": 109
+      },
+      {
+        "code": "Year",
+        "label": "Year",
+        "count": 40
+      },
+      {
+        "code": "Period",
+        "label": "Period",
+        "count": 7
+      }
+    ],
+    "links": {
+      "page": "/datasets/9b78cb1fa95ae59f78d4",
+      "api": "/api/v1/datasets/9b78cb1fa95ae59f78d4"
+    },
+    "observationUpdated": [
+      "2026-07-29T01:00:00Z"
+    ],
+    "sampleQuery": {
+      "release": "2026-07-29T10-20-54-739dfdd5ea11",
+      "selection": {
+        "Ecosystem/Croptype": [
+          "0"
+        ],
+        "Geolocation": [
+          "0"
+        ],
+        "Year": [
+          "0"
+        ],
+        "Period": [
+          "0"
+        ]
+      }
+    }
+  },
+  "dimensions": {
+    "Ecosystem/Croptype": [
+      {
+        "code": "0",
+        "label": "Irrigated Palay"
+      },
+      {
+        "code": "1",
+        "label": "Rainfed Palay"
+      },
+      {
+        "code": "2",
+        "label": "Palay"
+      },
+      {
+        "code": "3",
+        "label": "White Corn"
+      },
+      {
+        "code": "4",
+        "label": "Yellow Corn"
+      },
+      {
+        "code": "5",
+        "label": "Corn"
+      }
+    ],
+    "Geolocation": [
+      {
+        "code": "0",
+        "label": "PHILIPPINES"
+      },
+      {
+        "code": "1",
+        "label": "..CORDILLERA ADMINISTRATIVE REGION (CAR)"
+      },
+      {
+        "code": "2",
+        "label": "....Abra"
+      },
+      {
+        "code": "3",
+        "label": "....Apayao"
+      },
+      {
+        "code": "4",
+        "label": "....Benguet"
+      },
+      {
+        "code": "5",
+        "label": "....Ifugao"
+      },
+      {
+        "code": "6",
+        "label": "....Kalinga"
+      },
+      {
+        "code": "7",
+        "label": "....Mountain Province"
+      },
+      {
+        "code": "8",
+        "label": "..REGION I (ILOCOS REGION)"
+      },
+      {
+        "code": "9",
+        "label": "....Ilocos Norte"
+      },
+      {
+        "code": "10",
+        "label": "....Ilocos Sur"
+      },
+      {
+        "code": "11",
+        "label": "....La Union"
+      },
+      {
+        "code": "12",
+        "label": "....Pangasinan"
+      },
+      {
+        "code": "13",
+        "label": "..REGION II (CAGAYAN VALLEY)"
+      },
+      {
+        "code": "14",
+        "label": "....Batanes"
+      },
+      {
+        "code": "15",
+        "label": "....Cagayan"
+      },
+      {
+        "code": "16",
+        "label": "....Isabela"
+      },
+      {
+        "code": "17",
+        "label": "....Nueva Vizcaya"
+      },
+      {
+        "code": "18",
+        "label": "....Quirino"
+      },
+      {
+        "code": "19",
+        "label": "..REGION III (CENTRAL LUZON)"
+      },
+      {
+        "code": "20",
+        "label": "....Aurora"
+      },
+      {
+        "code": "21",
+        "label": "....Bataan"
+      },
+      {
+        "code": "22",
+        "label": "....Bulacan"
+      },
+      {
+        "code": "23",
+        "label": "....Nueva Ecija"
+      },
+      {
+        "code": "24",
+        "label": "....Pampanga"
+      },
+      {
+        "code": "25",
+        "label": "....Tarlac"
+      },
+      {
+        "code": "26",
+        "label": "....Zambales"
+      },
+      {
+        "code": "27",
+        "label": "..REGION IV-A (CALABARZON)"
+      },
+      {
+        "code": "28",
+        "label": "....Batangas"
+      },
+      {
+        "code": "29",
+        "label": "....Cavite"
+      },
+      {
+        "code": "30",
+        "label": "....Laguna"
+      },
+      {
+        "code": "31",
+        "label": "....Quezon"
+      },
+      {
+        "code": "32",
+        "label": "....Rizal"
+      },
+      {
+        "code": "33",
+        "label": "..MIMAROPA REGION"
+      },
+      {
+        "code": "34",
+        "label": "....Marinduque"
+      },
+      {
+        "code": "35",
+        "label": "....Occidental Mindoro"
+      },
+      {
+        "code": "36",
+        "label": "....Oriental Mindoro"
+      },
+      {
+        "code": "37",
+        "label": "....Palawan"
+      },
+      {
+        "code": "38",
+        "label": "....Romblon"
+      },
+      {
+        "code": "39",
+        "label": "....Puerto Princesa City"
+      },
+      {
+        "code": "40",
+        "label": "..REGION V (BICOL REGION)"
+      },
+      {
+        "code": "41",
+        "label": "....Albay"
+      },
+      {
+        "code": "42",
+        "label": "....Camarines Norte"
+      },
+      {
+        "code": "43",
+        "label": "....Camarines Sur"
+      },
+      {
+        "code": "44",
+        "label": "....Catanduanes"
+      },
+      {
+        "code": "45",
+        "label": "....Masbate"
+      },
+      {
+        "code": "46",
+        "label": "....Sorsogon"
+      },
+      {
+        "code": "47",
+        "label": "..REGION VI (WESTERN VISAYAS)"
+      },
+      {
+        "code": "48",
+        "label": "....Aklan"
+      },
+      {
+        "code": "49",
+        "label": "....Antique"
+      },
+      {
+        "code": "50",
+        "label": "....Capiz"
+      },
+      {
+        "code": "51",
+        "label": "....Guimaras"
+      },
+      {
+        "code": "52",
+        "label": "....Iloilo"
+      },
+      {
+        "code": "53",
+        "label": "....Negros Occidental"
+      },
+      {
+        "code": "54",
+        "label": "..NEGROS ISLAND REGION"
+      },
+      {
+        "code": "55",
+        "label": "....Negros Occidental a/"
+      },
+      {
+        "code": "56",
+        "label": "....Negros Oriental b/"
+      },
+      {
+        "code": "57",
+        "label": "....Siquijor b/"
+      },
+      {
+        "code": "58",
+        "label": "....Bacolod City"
+      },
+      {
+        "code": "59",
+        "label": "..REGION VII (CENTRAL VISAYAS)"
+      },
+      {
+        "code": "60",
+        "label": "....Bohol"
+      },
+      {
+        "code": "61",
+        "label": "....Cebu"
+      },
+      {
+        "code": "62",
+        "label": "....Negros Oriental"
+      },
+      {
+        "code": "63",
+        "label": "....Siquijor"
+      },
+      {
+        "code": "64",
+        "label": "..REGION VIII (EASTERN VISAYAS)"
+      },
+      {
+        "code": "65",
+        "label": "....Biliran"
+      },
+      {
+        "code": "66",
+        "label": "....Eastern Samar"
+      },
+      {
+        "code": "67",
+        "label": "....Leyte"
+      },
+      {
+        "code": "68",
+        "label": "....Northern Samar"
+      },
+      {
+        "code": "69",
+        "label": "....Samar"
+      },
+      {
+        "code": "70",
+        "label": "....Southern Leyte"
+      },
+      {
+        "code": "71",
+        "label": "..REGION IX (ZAMBOANGA PENINSULA)"
+      },
+      {
+        "code": "72",
+        "label": "....Sulu c/"
+      },
+      {
+        "code": "73",
+        "label": "....Zamboanga del Norte"
+      },
+      {
+        "code": "74",
+        "label": "....Zamboanga del Sur"
+      },
+      {
+        "code": "75",
+        "label": "....Zamboanga Sibugay"
+      },
+      {
+        "code": "76",
+        "label": "....Zamboanga City"
+      },
+      {
+        "code": "77",
+        "label": "..REGION X (NORTHERN MINDANAO)"
+      },
+      {
+        "code": "78",
+        "label": "....Bukidnon"
+      },
+      {
+        "code": "79",
+        "label": "....Camiguin"
+      },
+      {
+        "code": "80",
+        "label": "....Lanao del Norte"
+      },
+      {
+        "code": "81",
+        "label": "....Misamis Occidental"
+      },
+      {
+        "code": "82",
+        "label": "....Misamis Oriental"
+      },
+      {
+        "code": "83",
+        "label": "..REGION XI (DAVAO REGION)"
+      },
+      {
+        "code": "84",
+        "label": "....Davao de Oro (Compostela Valley)"
+      },
+      {
+        "code": "85",
+        "label": "....Davao del Norte"
+      },
+      {
+        "code": "86",
+        "label": "....Davao del Sur"
+      },
+      {
+        "code": "87",
+        "label": "....Davao Occidental"
+      },
+      {
+        "code": "88",
+        "label": "....Davao Oriental"
+      },
+      {
+        "code": "89",
+        "label": "....City of Davao"
+      },
+      {
+        "code": "90",
+        "label": "..REGION XII (SOCCSKSARGEN)"
+      },
+      {
+        "code": "91",
+        "label": "....Cotabato (North Cotabato)"
+      },
+      {
+        "code": "92",
+        "label": "....Sarangani"
+      },
+      {
+        "code": "93",
+        "label": "....South Cotabato"
+      },
+      {
+        "code": "94",
+        "label": "....Sultan Kudarat"
+      },
+      {
+        "code": "95",
+        "label": "..REGION XIII (CARAGA)"
+      },
+      {
+        "code": "96",
+        "label": "....Agusan del Norte"
+      },
+      {
+        "code": "97",
+        "label": "....Agusan del Sur"
+      },
+      {
+        "code": "98",
+        "label": "....Dinagat Islands"
+      },
+      {
+        "code": "99",
+        "label": "....Surigao del Norte"
+      },
+      {
+        "code": "100",
+        "label": "....Surigao del Sur"
+      },
+      {
+        "code": "101",
+        "label": "....Butuan City"
+      },
+      {
+        "code": "102",
+        "label": "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/"
+      },
+      {
+        "code": "103",
+        "label": "....Basilan"
+      },
+      {
+        "code": "104",
+        "label": "....Lanao del Sur"
+      },
+      {
+        "code": "105",
+        "label": "....Maguindanao del Norte"
+      },
+      {
+        "code": "106",
+        "label": "....Maguindanao del Sur"
+      },
+      {
+        "code": "107",
+        "label": "....Sulu"
+      },
+      {
+        "code": "108",
+        "label": "....Tawi-tawi"
+      }
+    ],
+    "Year": [
+      {
+        "code": "0",
+        "label": "1987"
+      },
+      {
+        "code": "1",
+        "label": "1988"
+      },
+      {
+        "code": "2",
+        "label": "1989"
+      },
+      {
+        "code": "3",
+        "label": "1990"
+      },
+      {
+        "code": "4",
+        "label": "1991"
+      },
+      {
+        "code": "5",
+        "label": "1992"
+      },
+      {
+        "code": "6",
+        "label": "1993"
+      },
+      {
+        "code": "7",
+        "label": "1994"
+      },
+      {
+        "code": "8",
+        "label": "1995"
+      },
+      {
+        "code": "9",
+        "label": "1996"
+      },
+      {
+        "code": "10",
+        "label": "1997"
+      },
+      {
+        "code": "11",
+        "label": "1998"
+      },
+      {
+        "code": "12",
+        "label": "1999"
+      },
+      {
+        "code": "13",
+        "label": "2000"
+      },
+      {
+        "code": "14",
+        "label": "2001"
+      },
+      {
+        "code": "15",
+        "label": "2002"
+      },
+      {
+        "code": "16",
+        "label": "2003"
+      },
+      {
+        "code": "17",
+        "label": "2004"
+      },
+      {
+        "code": "18",
+        "label": "2005"
+      },
+      {
+        "code": "19",
+        "label": "2006"
+      },
+      {
+        "code": "20",
+        "label": "2007"
+      },
+      {
+        "code": "21",
+        "label": "2008"
+      },
+      {
+        "code": "22",
+        "label": "2009"
+      },
+      {
+        "code": "23",
+        "label": "2010"
+      },
+      {
+        "code": "24",
+        "label": "2011"
+      },
+      {
+        "code": "25",
+        "label": "2012"
+      },
+      {
+        "code": "26",
+        "label": "2013"
+      },
+      {
+        "code": "27",
+        "label": "2014"
+      },
+      {
+        "code": "28",
+        "label": "2015"
+      },
+      {
+        "code": "29",
+        "label": "2016"
+      },
+      {
+        "code": "30",
+        "label": "2017"
+      },
+      {
+        "code": "31",
+        "label": "2018"
+      },
+      {
+        "code": "32",
+        "label": "2019"
+      },
+      {
+        "code": "33",
+        "label": "2020"
+      },
+      {
+        "code": "34",
+        "label": "2021"
+      },
+      {
+        "code": "35",
+        "label": "2022"
+      },
+      {
+        "code": "36",
+        "label": "2023"
+      },
+      {
+        "code": "37",
+        "label": "2024"
+      },
+      {
+        "code": "38",
+        "label": "2025"
+      },
+      {
+        "code": "39",
+        "label": "2026"
+      }
+    ],
+    "Period": [
+      {
+        "code": "0",
+        "label": "Quarter 1"
+      },
+      {
+        "code": "1",
+        "label": "Quarter 2"
+      },
+      {
+        "code": "2",
+        "label": "Semester 1"
+      },
+      {
+        "code": "3",
+        "label": "Quarter 3"
+      },
+      {
+        "code": "4",
+        "label": "Quarter 4"
+      },
+      {
+        "code": "5",
+        "label": "Semester 2"
+      },
+      {
+        "code": "6",
+        "label": "Annual"
+      }
+    ]
+  },
+  "query": {
+    "release": "2026-07-29T10-20-54-739dfdd5ea11",
+    "selection": {
+      "Geolocation": [
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "Ecosystem/Croptype": [
+        "2",
+        "5"
+      ],
+      "Year": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "Period": [
+        "6"
+      ]
+    }
+  },
+  "result": {
+    "data": {
+      "dataset": {
+        "id": "9b78cb1fa95ae59f78d4",
+        "title": "Palay and Corn: Volume of Production in Metric Tons by Ecosystem/Croptype, Quarter, Semester, Region and Province, 1987-2026"
+      },
+      "dimensions": [
+        {
+          "code": "Ecosystem/Croptype",
+          "label": "Ecosystem/Croptype"
+        },
+        {
+          "code": "Geolocation",
+          "label": "Geolocation"
+        },
+        {
+          "code": "Year",
+          "label": "Year"
+        },
+        {
+          "code": "Period",
+          "label": "Period"
+        }
+      ],
+      "selection": {
+        "Geolocation": [
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107",
+          "108"
+        ],
+        "Ecosystem/Croptype": [
+          "2",
+          "5"
+        ],
+        "Year": [
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38"
+        ],
+        "Period": [
+          "6"
+        ]
+      },
+      "rows": [
+        {
+          "codes": [
+            "2",
+            "102",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2018",
+            "Annual"
+          ],
+          "value": 638396.56,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2019",
+            "Annual"
+          ],
+          "value": 674760.55,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2020",
+            "Annual"
+          ],
+          "value": 725093.37,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2021",
+            "Annual"
+          ],
+          "value": 844953.6,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2022",
+            "Annual"
+          ],
+          "value": 825877.5762579001,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2023",
+            "Annual"
+          ],
+          "value": 895562.8701,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2024",
+            "Annual"
+          ],
+          "value": 916967.1691,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "102",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2025",
+            "Annual"
+          ],
+          "value": 944951.4333485,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2018",
+            "Annual"
+          ],
+          "value": 2031.06,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2019",
+            "Annual"
+          ],
+          "value": 1111.41,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2020",
+            "Annual"
+          ],
+          "value": 273.5,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2021",
+            "Annual"
+          ],
+          "value": 484.48,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2022",
+            "Annual"
+          ],
+          "value": 727.45,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2023",
+            "Annual"
+          ],
+          "value": 703,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2024",
+            "Annual"
+          ],
+          "value": 739.05,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "103",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Basilan",
+            "2025",
+            "Annual"
+          ],
+          "value": 1040.6,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2018",
+            "Annual"
+          ],
+          "value": 199964,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2019",
+            "Annual"
+          ],
+          "value": 190040,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2020",
+            "Annual"
+          ],
+          "value": 217678.81,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2021",
+            "Annual"
+          ],
+          "value": 219381.05,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2022",
+            "Annual"
+          ],
+          "value": 223465.035,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2023",
+            "Annual"
+          ],
+          "value": 227098.495,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2024",
+            "Annual"
+          ],
+          "value": 227913.917,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "104",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Lanao del Sur",
+            "2025",
+            "Annual"
+          ],
+          "value": 228659.6325,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2018",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2019",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2020",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2021",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2022",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2023",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2024",
+            "Annual"
+          ],
+          "value": 266291.4821,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "105",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Norte",
+            "2025",
+            "Annual"
+          ],
+          "value": 277021,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2018",
+            "Annual"
+          ],
+          "value": 433196.5,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2019",
+            "Annual"
+          ],
+          "value": 480713.2,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2020",
+            "Annual"
+          ],
+          "value": 505916.19,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2021",
+            "Annual"
+          ],
+          "value": 622850.07,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2022",
+            "Annual"
+          ],
+          "value": 600294.1312579003,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2023",
+            "Annual"
+          ],
+          "value": 621595.8951000001,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2024",
+            "Annual"
+          ],
+          "value": 360401.72,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "106",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Maguindanao del Sur",
+            "2025",
+            "Annual"
+          ],
+          "value": 374688.1908485,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2018",
+            "Annual"
+          ],
+          "value": 3170,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2019",
+            "Annual"
+          ],
+          "value": 2646,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2020",
+            "Annual"
+          ],
+          "value": 880,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2021",
+            "Annual"
+          ],
+          "value": 1914,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2022",
+            "Annual"
+          ],
+          "value": 1052.96,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2023",
+            "Annual"
+          ],
+          "value": 490,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2024",
+            "Annual"
+          ],
+          "value": 29,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "107",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Sulu",
+            "2025",
+            "Annual"
+          ],
+          "value": 36,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2018",
+            "Annual"
+          ],
+          "value": 35,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2019",
+            "Annual"
+          ],
+          "value": 249.94,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2020",
+            "Annual"
+          ],
+          "value": 344.87,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2021",
+            "Annual"
+          ],
+          "value": 324,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2022",
+            "Annual"
+          ],
+          "value": 338,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2023",
+            "Annual"
+          ],
+          "value": 516,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2024",
+            "Annual"
+          ],
+          "value": 509,
+          "status": ""
+        },
+        {
+          "codes": [
+            "2",
+            "108",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Palay",
+            "....Tawi-tawi",
+            "2025",
+            "Annual"
+          ],
+          "value": 847.01,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2018",
+            "Annual"
+          ],
+          "value": 902566.96,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2019",
+            "Annual"
+          ],
+          "value": 1114973.03,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2020",
+            "Annual"
+          ],
+          "value": 1138861.4,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2021",
+            "Annual"
+          ],
+          "value": 1137310.72,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2022",
+            "Annual"
+          ],
+          "value": 1142287.615,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2023",
+            "Annual"
+          ],
+          "value": 1231724.3937,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2024",
+            "Annual"
+          ],
+          "value": 1228127.833422,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "102",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "..BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)d/",
+            "2025",
+            "Annual"
+          ],
+          "value": 1267587.894,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2018",
+            "Annual"
+          ],
+          "value": 232,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2019",
+            "Annual"
+          ],
+          "value": 79.75,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2020",
+            "Annual"
+          ],
+          "value": 245.24,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2021",
+            "Annual"
+          ],
+          "value": 260,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2022",
+            "Annual"
+          ],
+          "value": 576.4300000000001,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2023",
+            "Annual"
+          ],
+          "value": 670,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2024",
+            "Annual"
+          ],
+          "value": 620,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "103",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Basilan",
+            "2025",
+            "Annual"
+          ],
+          "value": 500,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2018",
+            "Annual"
+          ],
+          "value": 360782.4,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2019",
+            "Annual"
+          ],
+          "value": 464837.47,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2020",
+            "Annual"
+          ],
+          "value": 436149.25,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2021",
+            "Annual"
+          ],
+          "value": 447447.37,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2022",
+            "Annual"
+          ],
+          "value": 444029.415,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2023",
+            "Annual"
+          ],
+          "value": 446071.775,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2024",
+            "Annual"
+          ],
+          "value": 450748.732,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "104",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Lanao del Sur",
+            "2025",
+            "Annual"
+          ],
+          "value": 452390.894,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2018",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2019",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2020",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2021",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2022",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2023",
+            "Annual"
+          ],
+          "value": null,
+          "status": ".."
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2024",
+            "Annual"
+          ],
+          "value": 315118.665,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "105",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Norte",
+            "2025",
+            "Annual"
+          ],
+          "value": 326224,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2018",
+            "Annual"
+          ],
+          "value": 539716.56,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2019",
+            "Annual"
+          ],
+          "value": 647834.81,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2020",
+            "Annual"
+          ],
+          "value": 700162.74,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2021",
+            "Annual"
+          ],
+          "value": 686980.35,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2022",
+            "Annual"
+          ],
+          "value": 695209.22,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2023",
+            "Annual"
+          ],
+          "value": 716452.4187,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2024",
+            "Annual"
+          ],
+          "value": 401899.436422,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "106",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Maguindanao del Sur",
+            "2025",
+            "Annual"
+          ],
+          "value": 418922,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2018",
+            "Annual"
+          ],
+          "value": 1392,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2019",
+            "Annual"
+          ],
+          "value": 1287,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2020",
+            "Annual"
+          ],
+          "value": 1375.49,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2021",
+            "Annual"
+          ],
+          "value": 1656,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2022",
+            "Annual"
+          ],
+          "value": 1506.55,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2023",
+            "Annual"
+          ],
+          "value": 1097,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2024",
+            "Annual"
+          ],
+          "value": 680,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "107",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Sulu",
+            "2025",
+            "Annual"
+          ],
+          "value": 671,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "31",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2018",
+            "Annual"
+          ],
+          "value": 444,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "32",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2019",
+            "Annual"
+          ],
+          "value": 934,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "33",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2020",
+            "Annual"
+          ],
+          "value": 928.68,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "34",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2021",
+            "Annual"
+          ],
+          "value": 967,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "35",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2022",
+            "Annual"
+          ],
+          "value": 966,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "36",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2023",
+            "Annual"
+          ],
+          "value": 967,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "37",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2024",
+            "Annual"
+          ],
+          "value": 928,
+          "status": ""
+        },
+        {
+          "codes": [
+            "5",
+            "108",
+            "38",
+            "6"
+          ],
+          "labels": [
+            "Corn",
+            "....Tawi-tawi",
+            "2025",
+            "Annual"
+          ],
+          "value": 644,
+          "status": ""
+        }
+      ],
+      "count": 112,
+      "release": "2026-07-29T10-20-54-739dfdd5ea11",
+      "unit": "Metric tons",
+      "source": "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2E__CS/0012E4EVCP0.px",
+      "sourceUpdated": "2026-07-29T10:20:54",
+      "retrieved": "2026-09-08T19:26:48.167Z"
+    }
+  }
+}

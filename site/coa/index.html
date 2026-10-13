@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#eef5ef"><title>BARMM · COA reports</title><link rel="stylesheet" href="coa.css"><script>
+(function(){
+  var failed=false;
+  function fail(message){
+    var loading=document.getElementById('loading'),error=document.getElementById('error'),content=document.getElementById('content');
+    if(!loading||!error){document.addEventListener('DOMContentLoaded',function(){fail(message);},{once:true});return;}
+    if(failed||(content&&!content.hidden))return;
+    failed=true;loading.hidden=true;error.hidden=false;error.textContent=message+' ';
+    var link=document.createElement('a'),url=new URL(location.href);url.searchParams.set('_fresh',Date.now());link.href=url.href;link.textContent='Open current dashboard';error.appendChild(link);
+  }
+  window.addEventListener('error',function(event){if(event.error||(event.target&&event.target.tagName==='SCRIPT'))fail('The dashboard script could not start.');},true);
+  window.addEventListener('unhandledrejection',function(){fail('The dashboard could not finish starting.');});
+  setTimeout(function(){var content=document.getElementById('content'),loading=document.getElementById('loading');if(content&&content.hidden&&loading&&!loading.hidden)fail('The dashboard has not loaded its published data.');},12000);
+})();
+</script><script src="coa-static.js?v=pages-20261013" defer></script><script src="coa.js?v=pages-20261013" defer></script></head>
+<body><noscript><style>#loading{display:none}</style><p role="alert">JavaScript is disabled. Open this dashboard in a browser with JavaScript enabled.</p></noscript>
+<a class="skip" href="#workspace">Skip to tables</a>
+<aside id="navigation"><div class="nav-head"><a href="./">COA reports</a><p>BARMM <span>2024</span></p></div><nav id="indicators" aria-label="Data and audit indicators"></nav><div class="nav-footer"><a href="../atlas/">BARMM Data Atlas ↗</a><a href="../">BARMM dashboards ↗</a></div></aside>
+<div id="scrim" hidden></div>
+<header><button id="menu" aria-controls="navigation" aria-expanded="false" aria-label="Open indicator navigation">☰</button><a class="identity" href="./">BARMM <span>/ COA</span></a><nav id="views" aria-label="Views"><button data-view="table" aria-pressed="true">Data Tables</button><button data-view="chart" aria-pressed="false">Charts</button></nav><a class="json-download" href="data.json.gz" download>JSON ↓</a></header>
+<div class="filters"><label>Governments<select id="government-dataset"><option value="lgu">Local governments</option><option value="ministries">Ministries &amp; offices</option></select></label><label>Province / area<select id="area"><option value="">All BARMM</option></select></label><label>View by<select id="level"><option value="local">Cities &amp; municipalities</option><option value="province">Provincial governments</option><option value="all">All governments</option></select></label><label id="metric-label">Financial indicator<select id="metric"></select></label><label id="records-label" hidden>Records<select id="records-mode"></select></label><label>Financial year<select id="year"><option>2024</option><option>2023</option></select></label><label class="search-label">Search governments<input id="search" type="search" placeholder="Government name"></label><label id="topic-label" hidden>Finding topic<select id="topic"><option value="">All topics</option></select></label><button id="clear-lgu" hidden></button></div>
+<main id="workspace" tabindex="-1"><div id="loading" role="status">Loading COA directory…</div><div id="content" hidden><div class="heading"><div><p class="eyebrow">SOURCE REPORT YEAR 2024 · PARTIAL PUBLISHED SUBSET</p><h1 id="title"></h1><p id="subtitle"></p></div><button id="export">Download this table ↓</button></div><div id="summary" aria-live="polite"></div><div class="data-note" id="data-note"></div><p><a href="release-coverage.csv" download>Download entity coverage CSV ↓</a></p><div id="results"></div></div><div id="error" role="alert" hidden></div></main>
+<dialog id="detail" aria-labelledby="detail-title"><div class="detail-head"><div><p id="detail-kicker" class="eyebrow"></p><h2 id="detail-title"></h2></div><button id="close-detail" aria-label="Close record details">×</button></div><div id="detail-body"></div></dialog>
+</body></html>
