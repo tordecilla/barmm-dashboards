@@ -4,7 +4,7 @@ const coaFiles=new Map();
 async function coaFile(dataset,name){
  const key=dataset+'/'+name;
  if(!coaFiles.has(key))coaFiles.set(key,(async()=>{
-  const response=await fetch('runtime/'+dataset+'/'+name+'.json.gz');
+  const response=await fetch('runtime/'+dataset+'/'+name+'.json.gz?v=topics-20261013-v1');
   if(!response.ok)throw Error('Could not load the selected COA records.');
   const stream=response.body.pipeThrough(new DecompressionStream('gzip'));
   return JSON.parse(await new Response(stream).text());
