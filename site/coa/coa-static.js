@@ -35,6 +35,7 @@ async function staticCoaJSON(dataset,path){
   const category=q.get('category'),boot=await coaFile(dataset,'bootstrap');
   const names=category==='financials'?(q.has('year')?['financials-'+q.get('year')]:boot.financial_years.map(y=>'financials-'+y)):[category];
   let rows=(await Promise.all(names.map(n=>coaFile(dataset,n)))).flat();
+  if(q.has('topic')){const topic=boot.topic_aliases?.[q.get('topic')]||q.get('topic');rows=rows.filter(r=>r.topic_groups?.includes(topic));}
   if(q.has('entity'))rows=rows.filter(r=>r.entity_id===q.get('entity'));
   if(q.has('year'))rows=rows.filter(r=>(r.year??r.report_year)===Number(q.get('year')));
   if(q.has('metric'))rows=rows.filter(r=>q.get('metric')==='__overview__'?overviewMetrics.includes(coaCanonical(r)):coaCanonical(r)===q.get('metric'));
