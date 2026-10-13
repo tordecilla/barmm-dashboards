@@ -1,0 +1,43 @@
+{
+  "removed_indicators": [
+    "construction-area",
+    "construction-count",
+    "construction-value",
+    "registered-infant-deaths-occurrence",
+    "registered-infant-deaths-residence",
+    "registered-maternal-deaths-occurrence",
+    "registered-maternal-deaths-residence"
+  ],
+  "removed_public_source_files": [
+    "sources/psa-24628bb7405a.xlsx",
+    "sources/psa-c5fe28b74f6d.xlsx",
+    "sources/psa-d10bef58a3d6.xlsx",
+    "sources/psa-727084206410.xlsx",
+    "sources/psa-bcaafac5c12a.xlsx",
+    "sources/psa-170c3ee443e8.xlsx",
+    "sources/psa-97b4c8607321.xlsx",
+    "sources/psa-7de07b52caf7.xlsx",
+    "sources/psa-a850e1c659c2.xlsx",
+    "sources/psa-0a546a5f2c49.xlsx",
+    "sources/psa-952d467fbc3c.xlsx",
+    "sources/psa-e84902c6ff24.xlsx",
+    "sources/psa-462d0db0b6a0.xlsx",
+    "sources/psa-73575aa6282b.xlsx",
+    "sources/psa-0d2a6224a101.xlsx",
+    "sources/psa-df40a083608f.xlsx",
+    "sources/psa-c8d7871f1aea.xlsx",
+    "sources/psa-1a0a11f0a5be.xlsx",
+    "sources/psa-43ab7f086665.xlsx",
+    "sources/psa-9f8be47b5b7d.xlsx",
+    "sources/psa-ab94e9edfc9c.xlsx",
+    "sources/psa-b95c800eac24.xlsx",
+    "sources/psa-89c366867375.xlsx",
+    "sources/psa-f46494551e9a.xlsx"
+  ],
+  "retained_observations": 25520,
+  "retained_indicators": 80,
+  "status": "PASS_REMOVAL_AND_RETAINED_VALUE_EQUALITY",
+  "removed_observations": 9000,
+  "tests": "17 passed",
+  "atlas_sha256": "8f4e7dc89ee7d70becf37a3ed2debb8c7c0905755c4f1830d17d22bd97488aa5"
+}

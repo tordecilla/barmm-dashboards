@@ -33,19 +33,18 @@
   "pdf_bytes": 693448458,
   "pages_bytes": 87340556,
   "atlas": {
-    "sha256": "b93a1daaa0f7b5945ae64678bca152da6b6b917092a9b6f214b25178dd06c95d",
-    "indicators": 87,
-    "observations": 34520,
-    "latest_added_families": [
-      "A11",
-      "A12",
-      "A14",
-      "A15",
-      "A18",
-      "A23",
-      "A24"
+    "sha256": "8f4e7dc89ee7d70becf37a3ed2debb8c7c0905755c4f1830d17d22bd97488aa5",
+    "indicators": 80,
+    "observations": 25520,
+    "removed_indicators": [
+      "construction-area",
+      "construction-count",
+      "construction-value",
+      "registered-infant-deaths-occurrence",
+      "registered-infant-deaths-residence",
+      "registered-maternal-deaths-occurrence",
+      "registered-maternal-deaths-residence"
     ],
-    "latest_added_observations": 4924,
-    "source_cell_equality": true
+    "remaining_values_unchanged": true
   }
 }

@@ -1,3 +1,5 @@
+Current Atlas: 80 indicators and25,520 observations. Construction permits and registered maternal/infant-death series were removed at the user’s request; source originals are preserved locally. See atlas-sparse-removal-proof.json.
+
 # BARMM dashboards
 
 Public dashboards: [Data Atlas](https://tordecilla.github.io/barmm-dashboards/atlas/) · [CY2024 COA](https://tordecilla.github.io/barmm-dashboards/coa/).
