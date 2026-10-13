@@ -1,0 +1,23 @@
+{
+  "status": "PASS_STATIC_BROWSER",
+  "indicator_cases": [
+    "registered-births-residence",
+    "registered-births-occurrence",
+    "registered-deaths-residence",
+    "registered-deaths-occurrence",
+    "registered-maternal-deaths-residence",
+    "registered-maternal-deaths-occurrence",
+    "registered-infant-deaths-residence",
+    "registered-infant-deaths-occurrence",
+    "registered-marriages",
+    "urban-population",
+    "urbanization",
+    "projected-population"
+  ],
+  "monthly_sex_filter": true,
+  "spouse_age_filter": true,
+  "projection_2030_sex": true,
+  "filtered_csv_exact": true,
+  "mobile_no_page_overflow": true,
+  "javascript_errors": []
+}

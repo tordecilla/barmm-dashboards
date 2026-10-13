@@ -1,0 +1,31 @@
+{
+  "families": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05"
+  ],
+  "added_observations": 24899,
+  "checks": [
+    "A01 annual sex totals and 12 monthly sums reconcile for every ingested source row",
+    "A02 monthly counts reconcile to the revised annual totals for every ingested source row",
+    "A03 monthly and both spouse-age distributions reconcile to each annual marriage total",
+    "A04 every urban share reconciles to its same-row population denominator",
+    "A05 all 33 source year/sex columns bound to Table 4; rounded values preserved without forced reconciliation"
+  ],
+  "source_sha256": [
+    "0a5df97e896431e7fd530914a2a901f189e81e1552dc944e483fdd631ce2b211",
+    "fef1a947d0307d32847e80e99cf01846de57b4198e697bf23877b78b61fa2785",
+    "a814a0c017ed1c518ec89d52ec7e55eebaf8ba7dd4b95c8013e8aabec10cf594",
+    "76553a3a034126f6568af331ebfba997386a3b03907b5328e2cc378eb43ea220",
+    "50d43151d11b1e51ff2e4e073b98b0b70800327bfbf9f3f21cabfcffed9ae2d9"
+  ],
+  "status": "PASS_SOURCE_CELLS_AND_BROWSER",
+  "original_observations_preserved": true,
+  "new_indicators": 12,
+  "atlas_indicators": 65,
+  "atlas_observations": 29596,
+  "atlas_sha256": "bd956ee72ebeef6ab3e1419b320f42638c8e63aa1f8ab6ce50eccd1f9a44a893",
+  "tests": "12 passed"
+}
