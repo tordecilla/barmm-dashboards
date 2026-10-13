@@ -1,0 +1,5185 @@
+{
+  "status": "PASS_SOURCE_CELLS_AND_STATIC_BROWSER",
+  "families": [
+    "A11",
+    "A12",
+    "A14",
+    "A15",
+    "A18",
+    "A23",
+    "A24"
+  ],
+  "new_indicators": [
+    "birth-registration-population",
+    "birth-registration-share",
+    "birth-certificate-population",
+    "birth-certificate-share",
+    "birth-registration-age-population",
+    "birth-registration-age-share",
+    "family-expenditure",
+    "total-family-expenditure",
+    "land-cover-area",
+    "forest-cover-area",
+    "agricultural-households",
+    "agricultural-operators",
+    "agricultural-operators-age",
+    "agricultural-operators-education",
+    "agri-vop-constant",
+    "agri-vop-growth-constant",
+    "agri-vop-current",
+    "agri-vop-growth-current",
+    "agri-vop-national-share",
+    "construction-count",
+    "construction-area",
+    "construction-value"
+  ],
+  "added_observations": 4924,
+  "sources": [
+    "0a546a5f2c49885e932d15590b78f9cfb83b8e9cc003a2baa4250b41fcc9d82b",
+    "0d2a6224a1016b561544eaa5789ef3f6ba2ee9266d6fe950d7406e8eba94a024",
+    "0da7bf5168ee3fc01b7b5674064116beda39ca6f4b504db81ca56f05e7f83183",
+    "170c3ee443e887d85cf3f03f02b3c7db7ae76a374f011d74ed0cd768f27de0c8",
+    "1a0a11f0a5becfbefc3bdfddfa8648a058cd304e1e98d2b7449284cf727daa0a",
+    "1ff6f8b344d243e5f89529001eaf07eeef31043d68ceed6254471c77c03ddc85",
+    "24628bb7405a45aa4904fb41de4fb0ef485769b4f90595705613bdf6ee42d1bc",
+    "43ab7f0866654b370ac38a8f7b44fa8ffa970baecb08a137363135fc6f054e7b",
+    "462d0db0b6a0b863fd46450afb5d9af69500b929892e2e2d2d9d8208026eb987",
+    "53c94c14ff18b5d7cbe2ebb3132df8acebaf96eda71de6b1bbda6348e089350f",
+    "5a870cf72d10357c2be3132bf52108eb8a518db7683d274e693b051e4d561e7a",
+    "601bbdd8cbf49052f429f9cabbb2409d2b52ad7d38d9e6bd5a37748192144dca",
+    "7270842064101662083c305fab7976496b22d106d8279a4019eb81db5687e972",
+    "7301b611d8f7e65934be90417bf3499e3be82c9763d8b05774ff2ec7ee13cb1a",
+    "73575aa6282b048cf2658794bd4480acced43b6f472ebcc3412aaa769bd32853",
+    "7bc6f902d2078ce297ddb533efd12da485bae03ec982c0d625c9796907300987",
+    "7d5da59f1c122ef726dedea5efd9b4c6c6eccc47cd5b49c8c2292b771792c840",
+    "7de07b52caf760e29427a42de1510941c9a0e028208ce7b9c64db11c3b7c41bf",
+    "89c3668673758fac33765684ebb2b28ce0162d2f6214074fbe1f25fef11396a1",
+    "931c90cde745a7c3221c17d4e8554db1116be717ead360c99ca15ba83c90f8cb",
+    "952d467fbc3c3b9662ac1f2bf1f3fcfac43a560b4505f97c4aa291a9e7f62fb6",
+    "97b4c8607321e16b6d76f3f7c8fca702cc0a2ab409d949147a19b43770ad57b1",
+    "9f8be47b5b7df69d4ac76f8386ee5fc0eedc887d076a8fcc55bcae3a2fa863a5",
+    "a58aca1efda0c57dfa5296e600d4eb81201c25ccb946596dbbbc340a868d6188",
+    "a850e1c659c233ed78af3c1d9dd9643a5aa435bf33d2902e53053ba87db5f129",
+    "ab94e9edfc9cdfe53cc97ed2d5edda220ede1a9bdbb39800769f74d3b56a497f",
+    "ac374c41c21f26834aea458842244d80e43f2e6491f090b10237e60eb6564ded",
+    "b95c800eac24616bcbfb3d6fe82a7fa0dd6a3f723670e438d0e835c0c6eaea77",
+    "bcaafac5c12a4f68cea827a823ba41c5f460311bb18124bb46fbd7ce0343bb25",
+    "c5fe28b74f6db0d24bf6c82c8438195de945c94d7172320c7c9558626616cc18",
+    "c8d7871f1aea0f0fc1824b700434a723cfbe3fb4ba668ec7f674f304ce7ae3c3",
+    "d10bef58a3d685a7379cf644a60b4192dc3ef5a67db202603d67ee442019208a",
+    "df40a083608fd099242240cea061c067c8d804de12a31b9de5c73f730521b6e7",
+    "e84902c6ff245c10cbec688e0a0b3e020819715420d788430ce4d5cfebf2e1f0",
+    "f46494551e9ae666088de07edeecdde5f17b9f902e71816f4949f4946a02f3fa",
+    "fb4d64659b519efb538047888b88fbe1f1a14ac60a99d71bfbc1361649586ee3"
+  ],
+  "selected_newer_release_overlaps": [
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 100747.36188173018,
+      "selected_value": 100747.36188173016
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2021,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 103477.16943643792,
+      "selected_value": 103477.16943643791
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 121110.50039731276,
+      "selected_value": 121274.06864968152
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 17.040793690927458,
+      "selected_value": 17.1988655180364
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 9109.252269943403,
+      "selected_value": 9110.843742730303
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 6.915451751328774,
+      "selected_value": 6.934130895008067
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 11975.18798940688,
+      "selected_value": 11976.861049217503
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 23.808487876450485,
+      "selected_value": 23.825785225390945
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 22316.62053692663,
+      "selected_value": 22313.2348441365
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -0.8838610369038946,
+      "selected_value": -0.8988981163988683
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2021,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 24598.534503737785,
+      "selected_value": 24598.53450373778
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 26610.909030984167,
+      "selected_value": 26771.171370353433
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 8.180871616317617,
+      "selected_value": 8.832383353103879
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 47777.81637899326,
+      "selected_value": 47791.576838092355
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 0.07342037192670148,
+      "selected_value": 0.1022424553181196
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2021,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 49146.099794155736,
+      "selected_value": 49146.09979415573
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 55785.5120845214,
+      "selected_value": 55800.08053857444
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 13.509540570206553,
+      "selected_value": 13.539183724218901
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2021,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 11186.154820002897,
+      "selected_value": 11186.154820002896
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 11049.617520575175,
+      "selected_value": 11051.840931123243
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -1.2205918979734491,
+      "selected_value": -1.2007154472730548
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 11723.159848418345,
+      "selected_value": 11725.5358055594
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 4.814855423194658,
+      "selected_value": 4.836098467514759
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 10494.055175291698,
+      "selected_value": 10479.865525647769
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 25.68538101352695,
+      "selected_value": 25.51543417294384
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 15015.731443981978,
+      "selected_value": 15000.419885976735
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 69.18083324499341,
+      "selected_value": 69.00831936171906
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 70859.49413472223,
+      "selected_value": 70859.49413472222
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 70726.9893953668,
+      "selected_value": 70726.98939536679
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 71557.7324818263,
+      "selected_value": 71557.73248182629
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 80468.70962435102,
+      "selected_value": 80468.28560873111
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 12.452850074291916,
+      "selected_value": 12.452257523906113
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5967.0466631206355,
+      "selected_value": 5968.639386542187
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 0.5261616944217877,
+      "selected_value": 0.5529941261503808
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 7100.302352411587,
+      "selected_value": 7102.004444704804
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 3.3465422159091247,
+      "selected_value": 3.371316562733483
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 19912.80826128254,
+      "selected_value": 19909.422025337924
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 0.042889731576096324,
+      "selected_value": 0.025877122165752553
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 20781.743425923807,
+      "selected_value": 20781.743425923803
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 23453.851966994753,
+      "selected_value": 23450.10601789259
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 12.857961366887395,
+      "selected_value": 12.839936175134298
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 37709.94351850066,
+      "selected_value": 37709.94351850065
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 37587.79964393918,
+      "selected_value": 37601.56019492102
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -0.3239036263778985,
+      "selected_value": -0.28741311565863725
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 35612.01534595728,
+      "selected_value": 35612.015345957276
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 41171.07352158437,
+      "selected_value": 41185.63534115075
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 15.610063405912115,
+      "selected_value": 15.650953592622784
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 4910.866131522085,
+      "selected_value": 4910.866131522083
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 4886.664862289733,
+      "selected_value": 4888.887691185787
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -0.4928106078275789,
+      "selected_value": -0.4475471280966161
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5928.752233063443,
+      "selected_value": 5931.122757385578
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5.480815046084871,
+      "selected_value": 5.522989997534339
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2398.598431958399,
+      "selected_value": 2398.5984319583986
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2372.6699647347245,
+      "selected_value": 2358.4800973798897
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -1.0809840812955258,
+      "selected_value": -1.6725740350690188
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2814.729550296871,
+      "selected_value": 2799.417047597394
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5.306239506916867,
+      "selected_value": 4.733359573727043
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 6603.634783975749,
+      "selected_value": 6603.6189524355705
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 35.478301447636994,
+      "selected_value": 35.477976652241296
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2399.5047837533407,
+      "selected_value": 2399.4745177054697
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 58.89684898756832,
+      "selected_value": 58.894844749164406
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 1197.5411329199999,
+      "selected_value": 1197.553729893872
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 31.5765084825114,
+      "selected_value": 31.577892540055615
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2286.2138786824075,
+      "selected_value": 2286.2139551780574
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 30.71464883876868,
+      "selected_value": 30.714653212419876
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 560.3154591199999,
+      "selected_value": 560.3167856116011
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 13.837842451314984,
+      "selected_value": 13.838111951182313
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 160.0595295,
+      "selected_value": 160.05996404656966
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -24.800067012243986,
+      "selected_value": -24.799862851498162
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2114.349598986,
+      "selected_value": 2114.376358514822
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 0.016540564525826085,
+      "selected_value": 0.017806389014481283
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 168.5129032419541,
+      "selected_value": 168.51413680722965
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -9.299922660351115,
+      "selected_value": -9.299258708429676
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 1082.6388810694143,
+      "selected_value": 1082.6532325669698
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 9.231574259170358,
+      "selected_value": 9.233022236606232
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 438.39416425462184,
+      "selected_value": 438.40072224563096
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -13.01682637096377,
+      "selected_value": -13.015525179211878
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 327.87360623490355,
+      "selected_value": 327.87771256222146
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 4.659602136859448,
+      "selected_value": 4.660912905933785
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 96.93004418510615,
+      "selected_value": 96.93055433277023
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -19.085123178218907,
+      "selected_value": -19.084697319180606
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 23881.2554166618,
+      "selected_value": 23881.255416661803
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 10.624087539576138,
+      "selected_value": 10.624087539576152
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 31923.806390000005,
+      "selected_value": 32087.787730000004
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 28.047996458544134,
+      "selected_value": 28.705733878295092
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 1527.7487618657185,
+      "selected_value": 1527.7475112310676
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 37.05801471616178,
+      "selected_value": 37.057902518720226
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 2306.8679500000007,
+      "selected_value": 2306.8679500000003
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 108.56390064846565,
+      "selected_value": 108.56390064846559
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 955.8586400172034,
+      "selected_value": 955.8586400172035
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 594.5154245628316,
+      "selected_value": 594.5159677173142
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -37.80299725573107,
+      "selected_value": -37.80294043200634
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 876.8770499999999,
+      "selected_value": 1040.8583900000003
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -54.22207551046229,
+      "selected_value": -45.661325288737096
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 8457.881961228493,
+      "selected_value": 8457.881869345747
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 1.8092192699793515,
+      "selected_value": 1.8092181639683105
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 11889.830520000005,
+      "selected_value": 11889.830520000001
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5.396260035838239,
+      "selected_value": 5.396260035838225
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5555.382106481107,
+      "selected_value": 5555.382106481106
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5401.498950111242,
+      "selected_value": 5401.499531763256
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": -2.7699832958445683,
+      "selected_value": -2.769972825781437
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2021,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 5654.260145904676,
+      "selected_value": 5654.260145904677
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 7899.61031889351,
+      "selected_value": 7899.610536604418
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-931c90cde745",
+      "selected_source": "psa-1ff6f8b344d2",
+      "older_value": 39.71076878404892,
+      "selected_value": 39.71077263443607
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 100747.36188173016,
+      "selected_value": 100747.36209085949
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 102973.43180007303,
+      "selected_value": 102979.37608267379
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2.209556535044669,
+      "selected_value": 2.2154565097211645
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 121274.06864968152,
+      "selected_value": 121110.08730968155
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 136861.07452638322,
+      "selected_value": 137225.25431237256
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 12.852711259920795,
+      "selected_value": 13.306213677713004
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 9110.843742730303,
+      "selected_value": 8935.134457785329
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 8538.910957761495,
+      "selected_value": 8399.207474481007
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -6.277495269580967,
+      "selected_value": -5.997973347086685
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11976.861049217503,
+      "selected_value": 11923.588465078828
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 13588.825353094071,
+      "selected_value": 13542.961995160907
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 13.45898810424859,
+      "selected_value": 13.581259826476028
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 22313.2348441365,
+      "selected_value": 22111.170462354883
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 23243.3750794855,
+      "selected_value": 22528.1492122906
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4.168558444556609,
+      "selected_value": 1.8858284804309022
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 26771.171370353433,
+      "selected_value": 26734.89924029491
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 31745.221666029232,
+      "selected_value": 30835.340724819398
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 18.579875444613876,
+      "selected_value": 15.33741140248732
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 47791.576838092355,
+      "selected_value": 48541.358511383645
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 49161.47379199237,
+      "selected_value": 48291.448726400115
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2.8663983164667997,
+      "selected_value": -0.5148388768825214
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 55800.08053857444,
+      "selected_value": 55795.20833657308
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 59362.68964853428,
+      "selected_value": 58017.230256703755
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 6.384594924548566,
+      "selected_value": 3.9824601186660686
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11051.840931123243,
+      "selected_value": 11011.366029862867
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 10633.222700247545,
+      "selected_value": 10587.29856179521
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -3.7877692366782156,
+      "selected_value": -3.8511794714441834
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11725.5358055594,
+      "selected_value": 11715.909698726724
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 16322.050605844517,
+      "selected_value": 16296.545837611196
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 39.20089347307933,
+      "selected_value": 39.09757122302071
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 10479.865525647769,
+      "selected_value": 10148.327859699803
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11396.449270586118,
+      "selected_value": 11036.057339180381
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 8.746140326850167,
+      "selected_value": 8.747544341820657
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 15000.419885976735,
+      "selected_value": 14940.479228448849
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 15842.287252881102,
+      "selected_value": 15876.442709239867
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5.61229201118158,
+      "selected_value": 6.264614852573189
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 70726.98939536679,
+      "selected_value": 70726.9893953668
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 72979.61725341971,
+      "selected_value": 72985.5629173254
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 3.1849621725882287,
+      "selected_value": 3.1933686719408882
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 80468.28560873111,
+      "selected_value": 80468.28560873114
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 91228.5483834397,
+      "selected_value": 91148.55320672378
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 13.37205421155521,
+      "selected_value": 13.27264215609658
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5968.639386542187,
+      "selected_value": 5893.7631259722975
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5625.82180099906,
+      "selected_value": 5548.189762448883
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -5.743647142028664,
+      "selected_value": -5.863373809520141
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 7102.004444704804,
+      "selected_value": 7060.5208720376295
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 7746.36975037166,
+      "selected_value": 7693.471605728093
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 9.07300622921025,
+      "selected_value": 8.964646449771024
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 19909.422025337924,
+      "selected_value": 19882.315351351466
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 20722.37691983106,
+      "selected_value": 20145.18194610248
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4.083267176006004,
+      "selected_value": 1.3221125915455616
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 23450.10601789259,
+      "selected_value": 23419.153087617447
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 27811.302997434737,
+      "selected_value": 27009.068862031367
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 18.597770842547675,
+      "selected_value": 15.328973515750405
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 37601.56019492102,
+      "selected_value": 37685.21863812888
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 39410.95944943571,
+      "selected_value": 38351.2671449572
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4.812032386781368,
+      "selected_value": 1.7673998742691026
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 41185.63534115075,
+      "selected_value": 41241.52489553622
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 46503.358775297485,
+      "selected_value": 45133.594194584635
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 12.911597429780358,
+      "selected_value": 9.43725846439223
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4888.887691185787,
+      "selected_value": 4905.151569100046
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4916.298904769846,
+      "selected_value": 4938.843036165362
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 0.5606840515784057,
+      "selected_value": 0.6868588379114442
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5931.122757385578,
+      "selected_value": 5946.5693760063195
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 6244.663089868399,
+      "selected_value": 6195.374757045069
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5.286357158809324,
+      "selected_value": 4.184015443301632
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2358.4800973798897,
+      "selected_value": 2360.538475607044
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2304.1601783840247,
+      "selected_value": 2303.8909903937856
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -2.3031747885517717,
+      "selected_value": -2.399769620306259
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2799.417047597394,
+      "selected_value": 2800.5150369743856
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2922.8537704674277,
+      "selected_value": 2921.2963343948895
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Crops"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4.4093724075865595,
+      "selected_value": 4.312824456425474
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 7280.8236308332325,
+      "selected_value": 7280.823635475623
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 10.255053831473631,
+      "selected_value": 10.255053901774318
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1211.5448812250038,
+      "selected_value": 1209.8450562976848
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -16.272530583335026,
+      "selected_value": -16.390002120561036
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2308.9665807337074,
+      "selected_value": 2306.3295677405395
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -3.771989921289588,
+      "selected_value": -3.8818895252949517
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 880.6288521908282,
+      "selected_value": 878.8790106845698
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -2.5356346244442136,
+      "selected_value": -2.7292998575228182
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1398.0803198386802,
+      "selected_value": 1395.4500753170996
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 16.744684179020425,
+      "selected_value": 16.52504939722121
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1488.5642496814717,
+      "selected_value": 1486.9684147602622
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5.499933959050523,
+      "selected_value": 5.386831364497979
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2722.6840575883507,
+      "selected_value": 2720.3066847430987
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 19.09139349892122,
+      "selected_value": 18.987406169132257
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 408.6654888529302,
+      "selected_value": 407.5387773320699
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -15.06289432184623,
+      "selected_value": -15.297070238644878
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 639.7889672305872,
+      "selected_value": 638.0323733707197
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 14.183437594545751,
+      "selected_value": 13.86993746301745
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 140.1145810564484,
+      "selected_value": 139.79110417642997
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 17.211412929872054,
+      "selected_value": 16.940811670022924
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 211.30370544190652,
+      "selected_value": 210.83432652816498
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Livestock"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 32.015339813788444,
+      "selected_value": 31.72208789627271
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2405.307542110254,
+      "selected_value": 2405.3075301731556
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 13.759668775325665,
+      "selected_value": 13.759668210757383
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 120.80404276624344,
+      "selected_value": 120.55337528764065
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -27.855275376058472,
+      "selected_value": -28.004975136115092
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 105.35574198870381,
+      "selected_value": 105.13161919572394
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -37.47958243454397,
+      "selected_value": -37.61258183579673
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1093.5398931793754,
+      "selected_value": 1090.9730715721375
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 20.73207683424539,
+      "selected_value": 20.448687352583363
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1367.2865387558143,
+      "selected_value": 1363.944659613568
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 26.290348343022004,
+      "selected_value": 25.981673409837484
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 321.17251648498086,
+      "selected_value": 321.1725164849809
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 368.2487326272489,
+      "selected_value": 367.45789793634674
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 14.657610388798474,
+      "selected_value": 14.411376775923571
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 438.40072224563096,
+      "selected_value": 438.4007222456311
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 509.2296656484403,
+      "selected_value": 508.1209584325959
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 16.156210473377072,
+      "selected_value": 15.903312346255973
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 280.3147694382167,
+      "selected_value": 280.31476943821673
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 278.1068566143111,
+      "selected_value": 277.47290281257096
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -0.7876548311494673,
+      "selected_value": -1.0138126618662255
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 327.87771256222146,
+      "selected_value": 327.8777125622215
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 323.23201874552905,
+      "selected_value": 322.46192102414017
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -1.4168983248017497,
+      "selected_value": -1.6517717827659908
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 102.23484214603239,
+      "selected_value": 102.23484214603242
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 115.9906683598567,
+      "selected_value": 115.75048181960442
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 13.455125400570836,
+      "selected_value": 13.22018931106308
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 100.20357697176689,
+      "selected_value": 99.99080462194149
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Poultry"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 3.3766676168590806,
+      "selected_value": 3.157157523999274
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 23881.255416661803,
+      "selected_value": 23881.255625791113
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 23887.606300099622,
+      "selected_value": 23887.604918794692
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 0.02659359119532212,
+      "selected_value": 0.026586931202743358
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 32087.787730000004,
+      "selected_value": 31923.806390000005
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 35946.39497000001,
+      "selected_value": 36390.56994000001
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 12.025158208063246,
+      "selected_value": 13.991951634561971
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1527.7475112310676,
+      "selected_value": 1426.914486855983
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1580.7402327711886,
+      "selected_value": 1520.619280446798
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 3.468683218303468,
+      "selected_value": 6.56695229139352
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 2306.8679500000003,
+      "selected_value": 2295.0789385284997
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 3428.133280000001,
+      "selected_value": 3438.0292024965515
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1900700000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 48.605527247452585,
+      "selected_value": 49.80004150536362
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 594.5159677173142,
+      "selected_value": 419.55825992215557
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 546.8294142842371,
+      "selected_value": 413.11518393141273
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -8.021071934564333,
+      "selected_value": -1.5356808830168944
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1040.8583900000003,
+      "selected_value": 1035.5391902166239
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 1168.5518100000002,
+      "selected_value": 1066.8771278573624
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1903600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 12.268087688662405,
+      "selected_value": 3.0262435199756226
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 8457.881869345747,
+      "selected_value": 9124.005099429183
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 7893.701360247951,
+      "selected_value": 8085.755268746312
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -6.670470429985301,
+      "selected_value": -11.379321025892736
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11889.830520000001,
+      "selected_value": 11829.068763613175
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 9627.417150000001,
+      "selected_value": 9655.20841894342
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "legacy-maguindanao",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -19.028138089894327,
+      "selected_value": -18.37727371538037
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5401.499531763256,
+      "selected_value": 5344.760752588621
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5030.151450010459,
+      "selected_value": 4963.443845485208
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": -6.874907228429862,
+      "selected_value": -7.134405537586133
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 4906.21855,
+      "selected_value": 4881.145824546582
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 9114.366530000001,
+      "selected_value": 9140.676786171267
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1906600000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 85.77171883221553,
+      "selected_value": 87.2649806978541
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 7899.610536604418,
+      "selected_value": 7566.014492429295
+    },
+    {
+      "key": [
+        "agri-vop-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 8836.183842785787,
+      "selected_value": 8476.624762790561
+    },
+    {
+      "key": [
+        "agri-vop-growth-constant",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11.85594279416145,
+      "selected_value": 12.035534312978655
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2022,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 11944.012320000002,
+      "selected_value": 11882.973673095123
+    },
+    {
+      "key": [
+        "agri-vop-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 12607.926200000002,
+      "selected_value": 12644.32124369487
+    },
+    {
+      "key": [
+        "agri-vop-growth-current",
+        "1907000000",
+        2023,
+        "all",
+        0,
+        "all",
+        "Fisheries"
+      ],
+      "older_source": "psa-1ff6f8b344d2",
+      "selected_source": "psa-5a870cf72d10",
+      "older_value": 5.558549859231903,
+      "selected_value": 6.407045841762283
+    },
+    {
+      "key": [
+        "construction-count",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 2,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 1797,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 73854.857,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 15,
+      "selected_value": 6
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 5296,
+      "selected_value": 1618
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 135670.736,
+      "selected_value": 11023.619
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 15,
+      "selected_value": 6
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 5296,
+      "selected_value": 1618
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-c5fe28b74f6d",
+      "selected_source": "psa-bcaafac5c12a",
+      "older_value": 135670.736,
+      "selected_value": 11023.619
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-bcaafac5c12a",
+      "selected_source": "psa-170c3ee443e8",
+      "older_value": 6,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-bcaafac5c12a",
+      "selected_source": "psa-170c3ee443e8",
+      "older_value": 1618,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-bcaafac5c12a",
+      "selected_source": "psa-170c3ee443e8",
+      "older_value": 11023.619,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-bcaafac5c12a",
+      "selected_source": "psa-170c3ee443e8",
+      "older_value": 6,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-bcaafac5c12a",
+      "selected_source": "psa-170c3ee443e8",
+      "older_value": 1618,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-bcaafac5c12a",
+      "selected_source": "psa-170c3ee443e8",
+      "older_value": 11023.619,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 1
+    },
+    {
+      "key": [
+        "construction-area",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 1680
+    },
+    {
+      "key": [
+        "construction-value",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 72775.202
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 3
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 2738
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 112506.284
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 3
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 2738
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-170c3ee443e8",
+      "selected_source": "psa-97b4c8607321",
+      "older_value": 0,
+      "selected_value": 112506.284
+    },
+    {
+      "key": [
+        "construction-count",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 1,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 1680,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1906600000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 72775.202,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 3,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 2738,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 112506.284,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 3,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 2738,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        2,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-97b4c8607321",
+      "selected_source": "psa-7de07b52caf7",
+      "older_value": 112506.284,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0a546a5f2c49",
+      "selected_source": "psa-462d0db0b6a0",
+      "older_value": 17,
+      "selected_value": 8
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0a546a5f2c49",
+      "selected_source": "psa-462d0db0b6a0",
+      "older_value": 18362,
+      "selected_value": 2501
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0a546a5f2c49",
+      "selected_source": "psa-462d0db0b6a0",
+      "older_value": 450659.528,
+      "selected_value": 18547.956
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0a546a5f2c49",
+      "selected_source": "psa-462d0db0b6a0",
+      "older_value": 17,
+      "selected_value": 8
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0a546a5f2c49",
+      "selected_source": "psa-462d0db0b6a0",
+      "older_value": 18362,
+      "selected_value": 2501
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0a546a5f2c49",
+      "selected_source": "psa-462d0db0b6a0",
+      "older_value": 450659.528,
+      "selected_value": 18547.956
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-462d0db0b6a0",
+      "selected_source": "psa-73575aa6282b",
+      "older_value": 8,
+      "selected_value": 2
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-462d0db0b6a0",
+      "selected_source": "psa-73575aa6282b",
+      "older_value": 2501,
+      "selected_value": 4130
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-462d0db0b6a0",
+      "selected_source": "psa-73575aa6282b",
+      "older_value": 18547.956,
+      "selected_value": 65116.486
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-462d0db0b6a0",
+      "selected_source": "psa-73575aa6282b",
+      "older_value": 8,
+      "selected_value": 2
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-462d0db0b6a0",
+      "selected_source": "psa-73575aa6282b",
+      "older_value": 2501,
+      "selected_value": 4130
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-462d0db0b6a0",
+      "selected_source": "psa-73575aa6282b",
+      "older_value": 18547.956,
+      "selected_value": 65116.486
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-73575aa6282b",
+      "selected_source": "psa-0d2a6224a101",
+      "older_value": 4130,
+      "selected_value": 10444
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-73575aa6282b",
+      "selected_source": "psa-0d2a6224a101",
+      "older_value": 65116.486,
+      "selected_value": 349674.925
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-73575aa6282b",
+      "selected_source": "psa-0d2a6224a101",
+      "older_value": 4130,
+      "selected_value": 10444
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-73575aa6282b",
+      "selected_source": "psa-0d2a6224a101",
+      "older_value": 65116.486,
+      "selected_value": 349674.925
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0d2a6224a101",
+      "selected_source": "psa-df40a083608f",
+      "older_value": 2,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0d2a6224a101",
+      "selected_source": "psa-df40a083608f",
+      "older_value": 10444,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0d2a6224a101",
+      "selected_source": "psa-df40a083608f",
+      "older_value": 349674.925,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0d2a6224a101",
+      "selected_source": "psa-df40a083608f",
+      "older_value": 2,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0d2a6224a101",
+      "selected_source": "psa-df40a083608f",
+      "older_value": 10444,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2026,
+        "all",
+        1,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-0d2a6224a101",
+      "selected_source": "psa-df40a083608f",
+      "older_value": 349674.925,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1a0a11f0a5be",
+      "selected_source": "psa-ab94e9edfc9c",
+      "older_value": 13,
+      "selected_value": 10
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1a0a11f0a5be",
+      "selected_source": "psa-ab94e9edfc9c",
+      "older_value": 3009,
+      "selected_value": 1703
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1a0a11f0a5be",
+      "selected_source": "psa-ab94e9edfc9c",
+      "older_value": 24879.097,
+      "selected_value": 20219.292999999998
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1a0a11f0a5be",
+      "selected_source": "psa-ab94e9edfc9c",
+      "older_value": 13,
+      "selected_value": 10
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1a0a11f0a5be",
+      "selected_source": "psa-ab94e9edfc9c",
+      "older_value": 3009,
+      "selected_value": 1703
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-1a0a11f0a5be",
+      "selected_source": "psa-ab94e9edfc9c",
+      "older_value": 24879.097,
+      "selected_value": 20219.292999999998
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-ab94e9edfc9c",
+      "selected_source": "psa-b95c800eac24",
+      "older_value": 10,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-ab94e9edfc9c",
+      "selected_source": "psa-b95c800eac24",
+      "older_value": 1703,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-ab94e9edfc9c",
+      "selected_source": "psa-b95c800eac24",
+      "older_value": 20219.292999999998,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-ab94e9edfc9c",
+      "selected_source": "psa-b95c800eac24",
+      "older_value": 10,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-ab94e9edfc9c",
+      "selected_source": "psa-b95c800eac24",
+      "older_value": 1703,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-ab94e9edfc9c",
+      "selected_source": "psa-b95c800eac24",
+      "older_value": 20219.292999999998,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-b95c800eac24",
+      "selected_source": "psa-89c366867375",
+      "older_value": 0,
+      "selected_value": 1
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-b95c800eac24",
+      "selected_source": "psa-89c366867375",
+      "older_value": 0,
+      "selected_value": 1004
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-b95c800eac24",
+      "selected_source": "psa-89c366867375",
+      "older_value": 0,
+      "selected_value": 1936.498
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-b95c800eac24",
+      "selected_source": "psa-89c366867375",
+      "older_value": 0,
+      "selected_value": 1
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-b95c800eac24",
+      "selected_source": "psa-89c366867375",
+      "older_value": 0,
+      "selected_value": 1004
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-b95c800eac24",
+      "selected_source": "psa-89c366867375",
+      "older_value": 0,
+      "selected_value": 1936.498
+    },
+    {
+      "key": [
+        "construction-count",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-89c366867375",
+      "selected_source": "psa-f46494551e9a",
+      "older_value": 1,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-89c366867375",
+      "selected_source": "psa-f46494551e9a",
+      "older_value": 1004,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1900000000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-89c366867375",
+      "selected_source": "psa-f46494551e9a",
+      "older_value": 1936.498,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-count",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-89c366867375",
+      "selected_source": "psa-f46494551e9a",
+      "older_value": 1,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-area",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-89c366867375",
+      "selected_source": "psa-f46494551e9a",
+      "older_value": 1004,
+      "selected_value": 0
+    },
+    {
+      "key": [
+        "construction-value",
+        "1908700000",
+        2025,
+        "all",
+        12,
+        "all",
+        "all"
+      ],
+      "older_source": "psa-89c366867375",
+      "selected_source": "psa-f46494551e9a",
+      "older_value": 1936.498,
+      "selected_value": 0
+    }
+  ],
+  "source_limitations": [
+    "A18 auxiliary T3 (2) and T5 worksheets disagree with the final revised T1–T4 totals; they are preserved in the downloadable source but not mixed into published final estimates."
+  ],
+  "prior_observations_unchanged": true,
+  "tests": "16 passed",
+  "atlas_sha256": "b93a1daaa0f7b5945ae64678bca152da6b6b917092a9b6f214b25178dd06c95d",
+  "atlas_indicators": 87,
+  "atlas_observations": 34520
+}

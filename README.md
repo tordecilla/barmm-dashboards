@@ -7,3 +7,5 @@ GitHub Pages publishes only the site folder. COA queries use compressed static s
 See deployment-proof.json for approved dataset hashes and exact full-record validation. Local review materials and internal proposal data are excluded.
 
 Atlas expansion A01–A05 adds registered births/deaths/marriages, urbanization and population projections. Sex, month and spouse-age filters retain the original table universes; projections and historical SGA clusters are labeled separately. See atlas-a01-a05-proof.json for source-cell equality and unchanged prior observations.
+
+Second Atlas batch adds A11, A12, A14, A15, A18, A23 and A24. Category selectors cover registration status, income decile, land/forest type, agricultural operation/education and construction type. Values, denominators and CVs retain source-cell citations; prior observations are unchanged. Final revised CAF tables are used; conflicting auxiliary worksheets remain in the original source workbook.

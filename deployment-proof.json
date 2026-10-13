@@ -31,19 +31,21 @@
   },
   "pdf_assets": 500,
   "pdf_bytes": 693448458,
-  "pages_bytes": 77951805,
+  "pages_bytes": 87340556,
   "atlas": {
-    "sha256": "bd956ee72ebeef6ab3e1419b320f42638c8e63aa1f8ab6ce50eccd1f9a44a893",
-    "indicators": 65,
-    "observations": 29596,
-    "added_families": [
-      "A01",
-      "A02",
-      "A03",
-      "A04",
-      "A05"
+    "sha256": "b93a1daaa0f7b5945ae64678bca152da6b6b917092a9b6f214b25178dd06c95d",
+    "indicators": 87,
+    "observations": 34520,
+    "latest_added_families": [
+      "A11",
+      "A12",
+      "A14",
+      "A15",
+      "A18",
+      "A23",
+      "A24"
     ],
-    "added_observations": 24899,
+    "latest_added_observations": 4924,
     "source_cell_equality": true
   }
 }

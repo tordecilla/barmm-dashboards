@@ -1,0 +1,32 @@
+{
+  "status": "PASS_STATIC_BROWSER",
+  "indicators_checked": [
+    "birth-registration-population",
+    "birth-registration-share",
+    "birth-certificate-population",
+    "birth-certificate-share",
+    "birth-registration-age-population",
+    "birth-registration-age-share",
+    "family-expenditure",
+    "total-family-expenditure",
+    "land-cover-area",
+    "forest-cover-area",
+    "agricultural-households",
+    "agricultural-operators",
+    "agricultural-operators-age",
+    "agricultural-operators-education",
+    "agri-vop-constant",
+    "agri-vop-growth-constant",
+    "agri-vop-current",
+    "agri-vop-growth-current",
+    "agri-vop-national-share",
+    "construction-count",
+    "construction-area",
+    "construction-value"
+  ],
+  "category_csv_and_cv": true,
+  "negative_growth_charts": true,
+  "construction_months": true,
+  "mobile_no_page_overflow": true,
+  "javascript_errors": []
+}

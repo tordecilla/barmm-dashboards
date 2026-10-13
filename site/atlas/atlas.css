@@ -18,3 +18,5 @@
 @media(max-width:700px){.filters>label.historical:nth-child(4){grid-column:4;grid-row:1}}
 
 .filters.has-breakdowns{height:140px;flex-wrap:wrap;align-content:center}.breakdown-controls{display:flex;gap:14px;width:100%;grid-column:1/-1;grid-row:2;min-width:0;overflow-x:auto}.breakdown-controls label{flex:0 0 140px}.indicator-note{font-size:12px;color:var(--muted);max-width:1000px;margin:0 0 16px}.has-breakdowns .historical{margin-left:auto}@media(max-width:1050px){.filters.has-breakdowns{display:grid}.breakdown-controls{gap:10px}.breakdown-controls label{flex-basis:115px}}
+
+.chart-track{position:relative}.chart-bar{position:absolute;top:0}
